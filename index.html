@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Govt Boys High School Nari Janubi</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+body{
+    margin:0;
+    font-family:'Poppins', sans-serif;
+    background:#f4f7fc;
+}
+
+/* HEADER */
+header{
+    background:linear-gradient(135deg,#003366,#0059b3);
+    color:white;
+    padding:15px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:15px;
+}
+
+header img{
+    width:70px;
+}
+
+header h1{
+    margin:0;
+    font-size:22px;
+}
+
+/* HERO */
+.hero{
+    background:url('https://images.unsplash.com/photo-1588072432836-e10032774350') no-repeat center center/cover;
+    height:75vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:white;
+    text-align:center;
+    background-color:rgba(0,0,0,0.6);
+    background-blend-mode:overlay;
+}
+
+.hero h2{
+    font-size:40px;
+}
+
+/* NAV */
+nav{
+    background:#00264d;
+    text-align:center;
+    padding:12px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-weight:500;
+}
+
+/* SECTION */
+section{
+    padding:60px 20px;
+    text-align:center;
+}
+
+.section-title{
+    font-size:28px;
+    margin-bottom:20px;
+    color:#003366;
+}
+
+/* CARDS */
+.cards{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    width:250px;
+    border-radius:12px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+/* BUILDING IMAGE */
+.building{
+    background:url('https://images.unsplash.com/photo-1596495578065-6e0763fa1178') no-repeat center center/cover;
+    height:400px;
+    border-radius:15px;
+    margin-top:30px;
+}
+
+/* FOOTER */
+footer{
+    background:#003366;
+    color:white;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    .hero h2{
+        font-size:28px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png" alt="School Logo">
+    <h1>Govt Boys High School Nari Janubi</h1>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#principal">Principal</a>
+    <a href="#teachers">Teachers</a>
+    <a href="#working">Working</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <h2>Excellence in Education & Character Building</h2>
+</div>
+
+<section id="about">
+    <h2 class="section-title">About Our School</h2>
+    <p>Govt Boys High School Nari Janubi is committed to providing quality education, discipline, and leadership skills to students.</p>
+    <div class="building"></div>
+</section>
+
+<section id="principal">
+    <h2 class="section-title">Principal Message</h2>
+    <div class="card">
+        <h3>Sohail (Principal)</h3>
+        <p>Our mission is to build responsible, educated and confident students who can serve the nation with pride.</p>
+    </div>
+</section>
+
+<section id="teachers">
+    <h2 class="section-title">Our Teachers</h2>
+    <div class="cards">
+        <div class="card">Abdul Salaam</div>
+        <div class="card">Muneer</div>
+        <div class="card">Khalid</div>
+        <div class="card">Mahboob</div>
+        <div class="card">Arif</div>
+        <div class="card">Ismaeel</div>
+    </div>
+</section>
+
+<section id="working">
+    <h2 class="section-title">Our Working & Academics</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Modern Teaching</h3>
+            <p>We use updated curriculum and smart teaching techniques.</p>
+        </div>
+        <div class="card">
+            <h3>Discipline</h3>
+            <p>Strong focus on discipline and moral development.</p>
+        </div>
+        <div class="card">
+            <h3>Co-Curricular Activities</h3>
+            <p>Sports, debates, and extracurricular activities for growth.</p>
+        </div>
+        <div class="card">
+            <h3>Exam Preparation</h3>
+            <p>Special preparation for board examinations and competitions.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Us</h2>
+    <p>Govt Boys High School Nari Janubi</p>
+    <p>Email: info@govtschool.com</p>
+    <p>Phone: 0300-0000000</p>
+</section>
+
+<footer>
+    <p>© 2026 Govt Boys High School Nari Janubi | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
